@@ -1,0 +1,81 @@
+cff-version: 1.2.0
+message: "If you use this software or framework, please cite it as below."
+title: "ARC Framework: Automation-Robotics-Control for Engineering Education"
+version: 1.0.0
+date-released: 2026-01-13
+authors:
+  - family-names: "Urrea"
+    given-names: "Claudio"
+    orcid: "https://orcid.org/00000-0001-7197-8928"
+    affiliation: "University of Santiago of Chile"
+    email: "claudio.urrea@usach.cl"
+repository-code: "https://github.com/ClaudioUrrea/ARC-Framework"
+url: "https://github.com/ClaudioUrrea/ARC-Framework"
+abstract: >
+  The ARC (Automation-Robotics-Control) Framework provides evidence-based
+  systematic guidance for technology transfer from industrial automation
+  to engineering education. Based on systematic review of 52 empirical
+  studies (2019-2025), the framework integrates: (1) five-level technology
+  complexity taxonomy with progression pathways, (2) competency development
+  model from novice to expert, (3) pedagogical strategies matrix aligned
+  with constructivist principles, and (4) three implementation models
+  accommodating diverse institutional contexts. Meta-analysis reveals
+  large positive effects (Hedges' g = 0.783, 95% CI: 0.719-0.847) with
+  industrial-grade systems demonstrating 26% improvement over educational
+  kits. Remote laboratories achieve optimal cost-effectiveness at $45/student
+  versus $280 for physical labs.
+keywords:
+  - "industrial robotics"
+  - "adaptive control"
+  - "STEM education"
+  - "engineering education"
+  - "Industry 4.0"
+  - "systematic review"
+  - "meta-analysis"
+  - "competency development"
+  - "technology transfer"
+  - "ARC Framework"
+license: "CC-BY-4.0"
+doi: "10.6084/m9.figshare.31053583"
+preferred-citation:
+  type: article
+  title: "Industrial Robotics and Adaptive Control Systems in STEM Education: Systematic Review of Technology Transfer from Industry to Classroom and Competency Development Framework"
+  authors:
+    - family-names: "Urrea"
+      given-names: "Claudio"
+      orcid: "https://orcid.org/00000-0001-7197-8928"
+  journal: "Applied Sciences"
+  volume: 16
+  issue: 2
+  year: 2026
+  month: 1
+  publisher:
+    name: "MDPI"
+  doi: "10.3390/appXXXXXXXX"
+  url: "https://www.mdpi.com/journal/applsci"
+identifiers:
+  - type: doi
+    value: "10.6084/m9.figshare.31053583"
+    description: "FigShare data repository"
+  - type: url
+    value: "https://github.com/ClaudioUrrea/ARC-Framework"
+    description: "GitHub code repository"
+references:
+  - type: software
+    title: "Python"
+    version: "3.8+"
+  - type: software
+    title: "R"
+    version: "4.0+"
+  - type: software
+    title: "matplotlib"
+    version: "3.5+"
+  - type: software
+    title: "pandas"
+    version: "1.4+"
+  - type: software
+    title: "numpy"
+    version: "1.21+"
+  - type: software
+    title: "metafor"
+    version: "3.0+"

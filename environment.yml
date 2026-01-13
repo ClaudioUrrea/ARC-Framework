@@ -1,0 +1,38 @@
+name: arc-framework
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Python version
+  - python=3.8
+
+  # Core scientific computing
+  - numpy>=1.21.0
+  - pandas>=1.4.0
+  - scipy>=1.8.0
+
+  # Visualization
+  - matplotlib>=3.5.0
+
+  # Data processing
+  - openpyxl>=3.0.0
+
+  # R and R packages
+  - r-base>=4.0.0
+  - r-metafor>=3.0.0
+
+  # System utilities
+  - python-dateutil>=2.8.0
+
+  # Optional: pip packages not available in conda
+  - pip
+  - pip:
+    - python-dateutil>=2.8.0
+
+# Alternative installation via pip only:
+# pip install -r requirements.txt
+
+# Installation instructions:
+# 1. conda env create -f environment.yml
+# 2. conda activate arc-framework
+# 3. Verify installation: python -c "import matplotlib; import pandas; import numpy"

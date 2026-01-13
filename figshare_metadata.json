@@ -1,0 +1,243 @@
+{
+  "title": "ARC Framework: Industrial Robotics and Adaptive Control Systems in STEM Education - Complete Repository",
+  "description": "This repository contains the complete code, data, and supplementary materials for the systematic review 'Industrial Robotics and Adaptive Control Systems in STEM Education: Systematic Review of Technology Transfer from Industry to Classroom and Competency Development Framework'. The ARC (Automation-Robotics-Control) Framework provides evidence-based guidance for integrating industrial-grade robotics and adaptive control systems into engineering education. Based on systematic review of 52 empirical studies (2019-2025), the framework includes: (1) five-level technology complexity taxonomy, (2) competency progression model from novice to expert, (3) pedagogical strategies matrix, and (4) implementation pathways. Meta-analysis reveals large positive effects (Hedges' g = 0.783, 95% CI: 0.719-0.847) with industrial-grade systems demonstrating 26% improvement over educational kits. Remote laboratories achieve optimal cost-effectiveness at $45/student versus $280 for physical labs. Repository includes: Python and R code for all figures, experimental datasets from Fanuc M-20iA industrial manipulator, complete documentation, and reproduction instructions.",
+  "defined_type": "dataset",
+  "keywords": [
+    "Industrial robotics",
+    "Adaptive control",
+    "STEM education",
+    "Engineering education",
+    "Industry 4.0",
+    "Systematic review",
+    "Meta-analysis",
+    "Competency development",
+    "Technology transfer",
+    "ARC Framework",
+    "Human-robot collaboration",
+    "Educational technology",
+    "Reinforcement learning",
+    "Cost-effectiveness analysis",
+    "Remote laboratories"
+  ],
+  "categories": [
+    "Education",
+    "Engineering",
+    "Robotics",
+    "Applied Computer Science",
+    "Automation and Control Engineering"
+  ],
+  "authors": [
+    {
+      "name": "Claudio Urrea",
+      "orcid_id": "00000-0001-7197-8928",
+      "email": "claudio.urrea@usach.cl",
+      "institution": "University of Santiago of Chile",
+      "department": "Department of Electrical Engineering"
+    }
+  ],
+  "funding": [
+    {
+      "title": "Institutional Support",
+      "funder_name": "Faculty of Engineering, University of Santiago of Chile",
+      "grant_code": "N/A"
+    }
+  ],
+  "license": {
+    "value": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "references": [
+    {
+      "title": "Industrial Robotics and Adaptive Control Systems in STEM Education: Systematic Review of Technology Transfer from Industry to Classroom and Competency Development Framework",
+      "doi": "10.3390/appXXXXXXXX",
+      "url": "https://www.mdpi.com/journal/applsci"
+    }
+  ],
+  "custom_fields": {
+    "Journal": "Applied Sciences",
+    "Volume": "16",
+    "Issue": "2",
+    "Year": "2026",
+    "Month": "January",
+    "Publisher": "MDPI",
+    "Article_Type": "Systematic Review",
+    "Number_of_Studies": "52",
+    "Study_Period": "2019-2025",
+    "Meta_Analysis_Effect_Size": "Hedges' g = 0.783 [0.719-0.847]",
+    "Programming_Languages": "Python 3.8+, R 4.0+",
+    "Repository_Version": "1.0.0",
+    "Last_Updated": "2026-01-13",
+    "GitHub_URL": "https://github.com/ClaudioUrrea/ARC-Framework",
+    "Contact_Email": "claudio.urrea@usach.cl"
+  },
+  "files": [
+    {
+      "name": "README.md",
+      "description": "Main repository documentation and overview",
+      "size": "~15 KB"
+    },
+    {
+      "name": "LICENSE",
+      "description": "CC BY 4.0 license text",
+      "size": "~2 KB"
+    },
+    {
+      "name": "CITATION.cff",
+      "description": "Citation File Format for standardized citation",
+      "size": "~2 KB"
+    },
+    {
+      "name": "requirements.txt",
+      "description": "Python package dependencies",
+      "size": "~1 KB"
+    },
+    {
+      "name": "environment.yml",
+      "description": "Conda environment specification",
+      "size": "~1 KB"
+    },
+    {
+      "name": "INSTALL.md",
+      "description": "Detailed installation instructions",
+      "size": "~12 KB"
+    },
+    {
+      "name": "REPRODUCE.md",
+      "description": "Complete reproduction instructions for all figures",
+      "size": "~18 KB"
+    },
+    {
+      "name": "code/python/Generate_Figure2_Taxonomy.py",
+      "description": "Python script for ARC Framework taxonomy pyramid (Figure 2)",
+      "size": "~5 KB"
+    },
+    {
+      "name": "code/python/Generate_Figure3_CostEffectiveness.py",
+      "description": "Python script for cost-effectiveness analysis (Figure 3)",
+      "size": "~5 KB"
+    },
+    {
+      "name": "code/python/Generate_Figure4_HRC.py",
+      "description": "Python script for HRC performance metrics (Figure 4)",
+      "size": "~8 KB"
+    },
+    {
+      "name": "code/python/Generate_Figure5_Sensitivity.py",
+      "description": "Python script for sensitivity analysis (Figure 5)",
+      "size": "~7 KB"
+    },
+    {
+      "name": "code/python/Generate_Figure6_Competency.py",
+      "description": "Python script for competency progression model (Figure 6)",
+      "size": "~7 KB"
+    },
+    {
+      "name": "code/r/Paper_Figure_7.R",
+      "description": "R script for meta-analysis forest plot (Figure 7)",
+      "size": "~6 KB"
+    },
+    {
+      "name": "data/HRC_Aggregated_Fanuc.csv",
+      "description": "Performance metrics from Fanuc M-20iA (1000 episodes)",
+      "size": "~45 KB"
+    },
+    {
+      "name": "data/Sensitivity_Results_Fanuc_Shaded.csv",
+      "description": "Robustness analysis across parameter variations (12 configs)",
+      "size": "~2 KB"
+    },
+    {
+      "name": "data/README_DATA.md",
+      "description": "Detailed data documentation and metadata",
+      "size": "~20 KB"
+    },
+    {
+      "name": "figures/Figure1_PRISMA_Flow_Diagram.png",
+      "description": "PRISMA 2020 systematic review flow diagram",
+      "size": "~1.5 MB"
+    },
+    {
+      "name": "figures/Figure2_Technology_Taxonomy.png",
+      "description": "ARC Framework five-level technology taxonomy",
+      "size": "~200 KB"
+    },
+    {
+      "name": "figures/Figure3_Cost_Effectiveness.png",
+      "description": "Cost-effectiveness analysis bubble chart",
+      "size": "~250 KB"
+    },
+    {
+      "name": "figures/Figure4_HRC_Performance.png",
+      "description": "Four-panel HRC performance metrics visualization",
+      "size": "~400 KB"
+    },
+    {
+      "name": "figures/Figure5_Sensitivity_Analysis.png",
+      "description": "Parameter robustness sensitivity analysis",
+      "size": "~350 KB"
+    },
+    {
+      "name": "figures/Figure6_Competency_Progression.png",
+      "description": "Five-level competency development pathway",
+      "size": "~300 KB"
+    },
+    {
+      "name": "figures/Figure7_Forest_Plot.png",
+      "description": "Meta-analysis forest plot (12 representative studies)",
+      "size": "~180 KB"
+    },
+    {
+      "name": "figures/Figure8_ARC_Framework_Implementation_Pathway.png",
+      "description": "Six-stage implementation decision-support flowchart",
+      "size": "~2.0 MB"
+    },
+    {
+      "name": "paper/Paper_Applied_Sciences_13_01_2026.pdf",
+      "description": "Complete manuscript (accepted version)",
+      "size": "~3.5 MB"
+    }
+  ],
+  "resource_type": {
+    "general": "Dataset",
+    "specific": "Research Data and Software"
+  },
+  "temporal_coverage": {
+    "start": "2019-01-01",
+    "end": "2025-12-31",
+    "description": "Studies included in systematic review"
+  },
+  "geographic_coverage": "Global (52 studies from Europe 40%, Asia 30%, North America 23%, South America 4%, Oceania 2%)",
+  "version": "1.0.0",
+  "status": "Published",
+  "data_collection_methods": [
+    "Systematic literature review (PRISMA 2020)",
+    "Meta-analysis (random-effects model)",
+    "Experimental robotics (Fanuc M-20iA industrial manipulator)",
+    "Human subjects evaluation (NASA-TLX workload assessment)",
+    "Cost-effectiveness analysis",
+    "Sensitivity analysis (±10% parameter variations)"
+  ],
+  "software_requirements": [
+    "Python 3.8 or higher",
+    "R 4.0 or higher",
+    "matplotlib 3.5+",
+    "pandas 1.4+",
+    "numpy 1.21+",
+    "metafor 3.0+ (R package)"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/ClaudioUrrea/ARC-Framework",
+      "relation": "isSupplementTo",
+      "type": "URL"
+    },
+    {
+      "identifier": "10.3390/appXXXXXXXX",
+      "relation": "isCitedBy",
+      "type": "DOI"
+    }
+  ],
+  "language": "en",
+  "embargo_date": null,
+  "data_link": "https://github.com/ClaudioUrrea/ARC-Framework"
+}

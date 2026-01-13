@@ -1,0 +1,28 @@
+# ARC Framework - Python Dependencies
+# Generated: January 13, 2026
+# Python version: 3.8+
+
+# Core scientific computing
+numpy>=1.21.0,<2.0.0
+pandas>=1.4.0,<3.0.0
+scipy>=1.8.0,<2.0.0
+
+# Visualization
+matplotlib>=3.5.0,<4.0.0
+
+# Data processing
+openpyxl>=3.0.0  # For Excel file handling (optional)
+
+# System and utilities
+python-dateutil>=2.8.0
+
+# Optional: For advanced features
+# scikit-learn>=1.0.0  # If machine learning features are added
+# seaborn>=0.11.0  # Enhanced statistical visualizations
+# plotly>=5.0.0  # Interactive visualizations
+
+# Development and testing (optional)
+# pytest>=7.0.0
+# pytest-cov>=3.0.0
+# black>=22.0.0
+# flake8>=4.0.0
