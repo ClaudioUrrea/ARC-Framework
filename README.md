@@ -69,9 +69,6 @@ ARC-Framework/
 │   ├── Figure7_Forest_Plot.png
 │   └── Figure8_ARC_Framework_Implementation_Pathway.png
 │
-├── paper/
-│   └── Paper_Applied_Sciences_13_01_2026.pdf
-│
 └── supplementary/
     ├── ARC_Framework_Implementation_Guide.pdf
     ├── Assessment_Rubrics.xlsx
